@@ -45,11 +45,12 @@ educationHeaders.forEach((header, index) => {
 });
 
 // Contact form demo handler
-const contactForm = document.querySelector('.contact-form');
-if (contactForm) {
-  contactForm.addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Thank you for your message! (Demo only)');
-    contactForm.reset();
-  });
-}
+
+// const contactForm = document.querySelector('.contact-form');
+// if (contactForm) {
+//   contactForm.addEventListener('submit', function(e) {
+//     e.preventDefault();
+//     alert('Thank you for your message! (Demo only)');
+//     contactForm.reset();
+//   });
+// }
